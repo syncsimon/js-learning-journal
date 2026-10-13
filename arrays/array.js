@@ -36,7 +36,7 @@ console.log(even_numbers)
 //map is method that can modify our actual array and give new array as per we apply function
 
 
-let reduced_number = numbers.reduce((value,numb)=> value+numb,0)
+let reduced_number = numbers.reduce((value,numb) => value+numb,0)
 console.log(reduced_number)
 
 let firstEvenNumber = numbers.find(nump => nump%2===0)
