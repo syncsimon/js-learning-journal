@@ -22,6 +22,14 @@
 // 3 print all numbers b/w 1 to 10 using loop:
 
 
-for(let num = 1; num<= 10; num++){
-    console.log(num);
+// for(let num = 1; num<= 10; num++){
+//     console.log(num);
+// }
+
+
+//arrays
+
+const myArr = [10,20,30,40,50];
+for(let i = 0; i< myArr.length ; i++){
+    console.log(myArr[i]);
 }
