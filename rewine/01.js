@@ -11,10 +11,17 @@
 
 // 2 Conditions (if-else)
 // Store a number in a variable and print "Even" if it is even, otherwise print "Odd".
-let num = 7;
-if(num%2==0){
-    console.log("num is even");
-}
-else{
-    console.log("odd");
+// let num = 7;
+// if(num%2==0){
+//     console.log("num is even");
+// }
+// else{
+//     console.log("odd");
+// }
+
+// 3 print all numbers b/w 1 to 10 using loop:
+
+
+for(let num = 1; num<= 10; num++){
+    console.log(num);
 }
