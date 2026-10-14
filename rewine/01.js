@@ -1,11 +1,20 @@
 // Write a program to store two numbers, 15 and 25, in variables and print their sum, difference, product, and division.
 // Concepts: let, variables, arithmetic operators, console.log()
-let num1 = 15;
-let num2 = 25;
+// let num1 = 15;
+// let num2 = 25;
 
-console.log(num2-num1);
-console.log(num2*num1);
-console.log(num2+num1);
-console.log(num2/num1);
+// console.log(num2-num1);
+// console.log(num2*num1);
+// console.log(num2+num1);
+// console.log(num2/num1);
 
 
+// 2 Conditions (if-else)
+// Store a number in a variable and print "Even" if it is even, otherwise print "Odd".
+let num = 7;
+if(num%2==0){
+    console.log("num is even");
+}
+else{
+    console.log("odd");
+}
