@@ -2,7 +2,7 @@
 
 
 let arr = [10, 20, 30, 40, 50];
-let n = arr.length;
-for(let i = 0 ; i < n ; i+=2){
+let num = arr.length;
+for(let i = 0 ; i < num ; i+=2){
     console.log(arr[i]);
 }
