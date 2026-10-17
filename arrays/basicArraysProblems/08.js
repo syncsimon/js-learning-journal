@@ -5,7 +5,6 @@ arr.unshift(100);
 console.log(arr);
 
 //function
-
 function addElement(n){
     aray.unshift(n);
     return aray;
