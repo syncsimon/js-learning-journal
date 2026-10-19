@@ -8,4 +8,4 @@ let arr = [15, 25, 35, 45];
 arr.shift();
 arr.push(90);
 arr.unshift(5);
-console.log(arr);
+console.log(
