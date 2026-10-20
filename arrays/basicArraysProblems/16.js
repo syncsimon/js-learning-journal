@@ -7,4 +7,5 @@
 let arr = [15, 25, 35, 45];
 arr.shift();
 arr.push(90);
-arr.unshift(5);
+arr.unshift(10);
+console.log(arr);
