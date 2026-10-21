@@ -1,31 +1,33 @@
-const userName = "simon"
-const storedUsername = "sion"
-const password = "hellosimon"
-const userPassword = "hellosimon"
-if (userName != storedUsername){
-    console.log("incorrect username")
-}
-else if (password != userPassword){
-        console.log("username correct but password incorrect")
-}
-else{
-    console.log("Successfully login!")
-}
+// const userName = "simon"
+// const storedUsername = "sion"
+// const password = "hellosimon"
+// const userPassword = "hellosimon"
+// if (userName != storedUsername){
+//     console.log("incorrect username")
+// }
+// else if (password != userPassword){
+//         console.log("username correct but password incorrect")
+// }
+// else{
+//     console.log("Successfully login!")
+// }
 
 
 //writing in function
 function loginSystem(userName,password,storedUsername , userPassword){
     if (userName != storedUsername){
-    console.log("incorrect username")
+        return "Incorrect Username";
+       
     }
     else if (password != userPassword){
-        console.log("username correct but password incorrect")
+        return "username correct but password incorrect";
     }
     else{
-    console.log("Successfully login!")
+        return "Successful Login!"
     }
 }
-console.log(loginSystem("Simon","hellosimon","Simon","hellosimon"))
+let result = loginSystem("Simon","hellosimon","Simon","helosimon");
+console.log(result);
 
 
 // !==
