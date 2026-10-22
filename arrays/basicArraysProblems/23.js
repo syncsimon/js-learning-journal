@@ -15,3 +15,9 @@ const new_Arr = scores.slice(1,4);
 console.log(new_Arr);
 console.log(scores);
 
+// Given items = ["pen", "pencil", "eraser", "scale", "marker"], remove "eraser" and "scale" using splice(). Print the removed elements and the updated array.
+
+const items = ["pen", "pencil", "eraser", "scale", "marker"]
+const unnecessaryItems = items.splice(2,2);
+console.log(items);
+console.log(unnecessaryItems);
