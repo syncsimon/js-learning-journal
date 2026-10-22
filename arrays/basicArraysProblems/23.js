@@ -28,3 +28,12 @@ console.log(unnecessaryItems);
 const colors = ["red","blue","green","yellow"];
 const newColors = colors.splice(1,1,"black","white");
 console.log(colors)
+
+// Given values = [5, 10, 15, 20, 25, 30], extract [15, 20, 25] using slice(). Then use splice() on the original array to remove those same three values. Print the extracted array and the original array after removal.
+const values = [5,10,15,20,25,30];
+const temporaryRemove = values.slice(2,5);
+console.log(temporaryRemove);
+const permanentRemove = values.splice(2,3);
+console.log(permanentRemove);
+console.log(values);
+
