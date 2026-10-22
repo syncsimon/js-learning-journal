@@ -21,3 +21,10 @@ const items = ["pen", "pencil", "eraser", "scale", "marker"]
 const unnecessaryItems = items.splice(2,2);
 console.log(items);
 console.log(unnecessaryItems);
+
+
+// Given colors = ["red", "blue", "green", "yellow"], replace "blue" with "black" and "white" using splice(). Print the updated array.
+
+const colors = ["red","blue","green","yellow"];
+const newColors = colors.splice(1,1,"black","white");
+console.log(colors)
