@@ -13,6 +13,7 @@ const removeArr = cart.splice(1,1)
 console.log(cart);
 
 const findWatch = cart.find((w) => w === "watch");
+
 if(findWatch === "watch"){
     console.log("yes")
 }
