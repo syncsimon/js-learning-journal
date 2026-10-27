@@ -54,3 +54,30 @@ linkupInfo.founder.age = 22 ;
 linkupInfo.founder.country = "India";
 console.log(linkupInfo);
 
+// practice destructuring
+
+const product = {
+    name : "laptop",
+    price : 65000 ,
+    brand : "acer"
+}
+const {name , price} = product;
+console.log(name);
+console.log(price);
+const{ name : productName } = product ;
+console.log(productName);
+const{category = "Electronics"} = product;
+console.log(category);
+const sms = {
+    name: "Social media",
+    founder: {
+        foundername: "Simon Rana",
+        role: "Developer"
+    }
+};
+const {
+    founder : { foundername,role}
+} = sms
+
+console.log(foundername);
+console.log(role);
