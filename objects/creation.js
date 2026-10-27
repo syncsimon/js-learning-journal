@@ -15,3 +15,9 @@ const userInfo = {
 
 console.log(userInfo["age"]); // we have putted "" commas because in the backend it has considered everything as sting , so whenever we access anything we have to put "" commmas;
 console.log(userInfo[symbolDataType]);
+
+//changing the values of objects
+userInfo.name = "Simon Rana";
+console.log(userInfo["name"]);
+
+console.log(userInfo);
