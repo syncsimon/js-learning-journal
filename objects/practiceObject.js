@@ -81,3 +81,24 @@ const {
 
 console.log(foundername);
 console.log(role);
+
+
+// problem 2
+const developer = {
+    name: "Simon",
+    skills: {
+        primary: "JavaScript",
+        secondary: "Python"
+    },
+    experience: undefined
+};
+
+const {name : developerName} = developer;
+const {
+    skills : {primary,secondary}
+} = developer;
+const {experience = 0} = developer;
+console.log(developerName);
+console.log(primary);
+console.log(secondary);
+console.log(experience);
