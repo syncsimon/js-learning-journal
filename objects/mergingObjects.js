@@ -7,5 +7,6 @@ const obj2 = {
     4 : "d"
 }
 
-const obj3 = Object.assign(obj1 , obj2); // merging 2 objects into 1
+const obj3 = Object.assign({} , obj1 , obj2); // merging 2 objects into 1
+// adding {} as a paraamter is an error catching mechanism which handles the situation if any eorror occurs
 console.log(obj3);
