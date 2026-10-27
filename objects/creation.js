@@ -32,3 +32,8 @@ linkupInfo.age = 21;
 linkupInfo.location = "Dubai";
 
 console.log(linkupInfo["name"]);
+
+// methods of objects
+console.log( Object.keys(linkupInfo));
+console.log(Object.values(linkupInfo));
+console.log(Object.entries(linkupInfo));
