@@ -37,3 +37,23 @@ console.log(linkupInfo["name"]);
 console.log( Object.keys(linkupInfo));
 console.log(Object.values(linkupInfo));
 console.log(Object.entries(linkupInfo));
+
+
+// nested objects
+const userData = {
+    name : "Buddy" ,
+    age : "20" ,
+    location : "Dubai",
+    social : "media",
+    details : {
+        interest : "fashioon" ,
+        hobby : "dancing" ,
+        status : "unemployed"
+    }
+    
+};
+console.log(userData.details.hobby); // accessing nested objects
+// manipulating nested objects
+userData.name = "Simon";
+userData.details.status = "Married";
+console.log(userData.details.status);
