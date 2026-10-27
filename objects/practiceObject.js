@@ -30,3 +30,7 @@ linkupInfo.technology = "React js and tailwind css";
 console.log(linkupInfo);
 
 // ammendmemts
+console.log(linkupInfo["name"]);
+console.log(linkupInfo["technology"]);
+linkupInfo.status = "In development";
+console.log(linkupInfo);
