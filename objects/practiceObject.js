@@ -22,6 +22,7 @@ delete laptop.isAvailable; // delete the property of object
 console.log(Object.keys(laptop));
 
 
+/*
 const linkupInfo = new Object();
 linkupInfo.name = "Simon";
 linkupInfo.founder = "Syncsimon";
@@ -34,3 +35,22 @@ console.log(linkupInfo["name"]);
 console.log(linkupInfo["technology"]);
 linkupInfo.status = "In development";
 console.log(linkupInfo);
+*/
+
+// dealing with nested objects
+const linkupInfo = new Object();
+linkupInfo.name = "LinkUp";
+linkupInfo.type = "Social media platform";
+linkupInfo.founder = {
+    founderName  : " Simon Rana",
+    role : "developer",
+    age : "21"
+
+}
+console.log(linkupInfo["name"]);
+console.log(linkupInfo.founder.founderName);
+console.log(linkupInfo.founder.role);
+linkupInfo.founder.age = 22 ;
+linkupInfo.founder.country = "India";
+console.log(linkupInfo);
+
