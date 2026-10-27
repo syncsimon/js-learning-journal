@@ -20,3 +20,13 @@ console.log(laptop["brand"]);
 
 delete laptop.isAvailable; // delete the property of object
 console.log(Object.keys(laptop));
+
+
+const linkupInfo = new Object();
+linkupInfo.name = "Simon";
+linkupInfo.founder = "Syncsimon";
+linkupInfo.technology = "React js";
+linkupInfo.technology = "React js and tailwind css";
+console.log(linkupInfo);
+
+// ammendmemts
