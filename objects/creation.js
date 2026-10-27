@@ -20,4 +20,6 @@ console.log(userInfo[symbolDataType]);
 userInfo.name = "Simon Rana";
 console.log(userInfo["name"]);
 
+//freezing the object so that noone can change the values of keys further
+Object.freeze(userInfo);
 console.log(userInfo);
