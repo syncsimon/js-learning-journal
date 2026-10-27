@@ -23,3 +23,12 @@ console.log(userInfo["name"]);
 //freezing the object so that noone can change the values of keys further
 Object.freeze(userInfo);
 console.log(userInfo);
+
+// constructor method , singleton method
+
+const linkupInfo = new Object(); // linkup = referal name for any app that stroes data;
+linkupInfo.name = "Simon jii";
+linkupInfo.age = 21;
+linkupInfo.location = "Dubai";
+
+console.log(linkupInfo["name"]);
