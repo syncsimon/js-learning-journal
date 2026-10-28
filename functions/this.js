@@ -36,3 +36,4 @@ const linkupProfile = {
     }
 }
 linkupProfile.introduce();
+console.log(linkupProfile.introduce());
