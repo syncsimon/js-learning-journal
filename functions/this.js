@@ -11,15 +11,28 @@
 // userRegister.message();
 // console.log(this);
 
-const name = {
-    value : "simon",
+// const name = {
+//     value : "simon",
     
-}
-// console.log(name.value)
+// }
+// // console.log(name.value)
 
-// console.log(this.name);
-const randonFun = function(names){
-    const name = "hitesh rana";
-    console.log(this.name)
+// // console.log(this.name);
+// const randonFun = function(names){
+//     // const name = "hitesh rana";
+//     console.log(this.names)
+// }
+// console.log(randonFun("hitu"));
+
+const linkupProfile = {
+    userName : "simon",
+    role : "developer",
+
+    introduce : function(){
+        console.log(`hii my name is ${this.userName}`);
+        console.log(`and my role is ${this.role}`);
+        
+        
+    }
 }
-console.log(randonFun);
+linkupProfile.introduce();
