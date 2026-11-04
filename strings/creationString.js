@@ -30,5 +30,17 @@ console.log(name[4]);
 //accessing last letter
 console.log(name[name.length-1]);  //n
  //(at(-1)) : it calculates from the last index -1 = last index -2 = second last index
+//problem statement
+const word = "JavaScript"
+console.log(word.length); //print total length
+console.log(word[0]);  //print 1st word
+console.log(word[word.length-1]);  //print the last letter
+for(let i = 0; i< word.length ; i++){   //print every letter in new line
+    console.log(word[i]);
+}
+for(let i = word.length-1 ; i>=0 ; i--){   //print the string inreverse order
+    console.log(word[i]);
+    
+}
 
  
