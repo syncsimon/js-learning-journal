@@ -31,3 +31,5 @@ console.log(`Total number of items are ${countItems}`);
 let averagePrice = totalValue/countItems
 console.log(`The average price is ${averagePrice}`);
 
+
+//create funciton 
