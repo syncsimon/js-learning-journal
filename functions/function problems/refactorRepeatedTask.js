@@ -7,12 +7,7 @@
 
 
 
-// //total number of items
-// let countItems = 0
-// for(let i = 0 ; i < cart.length ; i++){
-//     countItems+=cart[i].quantity
-// }
-// console.log(`Total number of items are ${countItems}`);
+
 // //average of price 
 // let averagePrice = totalValue/countItems
 // console.log(`The average price is ${averagePrice}`);
@@ -45,4 +40,14 @@ function countTotalCartValue (cart){
     return (`Total price of cart is ${totalValue}`)
 }
 console.log(countTotalCartValue(cart));
+
+function countTotalItems (cart){
+    let countItems = 0
+    for(let i = 0 ; i < cart.length ; i++){
+        countItems+=cart[i].quantity
+    }
+    return (`Total number of items are ${countItems}`);
+}
+
+console.log(countTotalItems(cart));
 
