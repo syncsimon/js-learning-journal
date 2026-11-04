@@ -14,5 +14,21 @@ console.log(message); // we used backslash to prevent error
 //instead of +() to write expression we can use `` backticks to write expression using ${}
 const name = "Simon";
 const age = 19;
-console.log(`My name is ${name} and age is ${age}`);
+console.log(`My name is ${name} and age is ${age}`); 
 
+//length
+console.log(name.length); //5
+
+//string indeing : they are also 0 indexed
+console.log(name[0]);
+console.log(name[1]);
+console.log(name[2]);
+console.log(name[3]);
+console.log(name[4]);
+// console.log(name[5]);
+
+//accessing last letter
+console.log(name[name.length-1]);  //n
+ //(at(-1)) : it calculates from the last index -1 = last index -2 = second last index
+
+ 
