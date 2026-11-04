@@ -4,15 +4,6 @@
 // 3. Total number of items.
 // 4. Average product price.
 
-
-
-
-
-// //average of price 
-// let averagePrice = totalValue/countItems
-// console.log(`The average price is ${averagePrice}`);
-
-
 const cart = [
     { name: "Keyboard", price: 1500, quantity: 2 },
     { name: "Mouse", price: 500, quantity: 3 },
