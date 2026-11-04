@@ -51,3 +51,10 @@ function countTotalItems (cart){
 
 console.log(countTotalItems(cart));
 
+function averagePrice(cart){
+    let countItems = 8
+    let totalValue = 20500
+    let averagePrice = totalValue/countItems
+    return (`The average price is ${averagePrice}`);
+}
+console.log(averagePrice(cart));
