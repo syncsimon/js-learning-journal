@@ -5,22 +5,8 @@
 // 4. Average product price.
 
 
-// const cart = [
-//     { name: "Keyboard", price: 1500, quantity: 2 },
-//     { name: "Mouse", price: 500, quantity: 3 },
-//     { name: "Monitor", price: 12000, quantity: 1 },
-//     { name: "Headphones", price: 2000, quantity: 2 }
-// ];
-//individual product total
-// for(let i = 0 ; i < cart.length ; i++){
-//     console.log(`${cart[i].name} : price ${cart[i].price * cart[i].quantity}`);
-// }
-//total cart value
-// let totalValue = 0;
-// for(let i = 0 ; i < cart.length ; i++){   
-//     totalValue += cart[i].price*cart[i].quantity
-// }
-// console.log(`Total price of cart is ${totalValue}`);
+
+
 // //total number of items
 // let countItems = 0
 // for(let i = 0 ; i < cart.length ; i++){
@@ -44,15 +30,19 @@ function individualProductTotal (cart){
     let n = cart.length
     for(let i = 0 ; i < n ; i++){
         console.log(`${cart[i].name} : price ${cart[i].price * cart[i].quantity}`);
-        // (`${cart[i].name} : price ${cart[i].price * cart[i].quantity}`);
     }
 }
-// const cart = [
-//     { name: "Keyboard", price: 1500, quantity: 2 },
-//     { name: "Mouse", price: 500, quantity: 3 },
-//     { name: "Monitor", price: 12000, quantity: 1 },
-//     { name: "Headphones", price: 2000, quantity: 2 }
-// ];
+
 const result = individualProductTotal(cart);
 console.log(result);
+
+//total cart value
+function countTotalCartValue (cart){
+    let totalValue = 0;
+    for(let i = 0 ; i < cart.length ; i++){   
+        totalValue += cart[i].price*cart[i].quantity
+    }
+    return (`Total price of cart is ${totalValue}`)
+}
+console.log(countTotalCartValue(cart));
 
