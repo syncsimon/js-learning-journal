@@ -43,4 +43,10 @@ for(let i = word.length-1 ; i>=0 ; i--){   //print the string inreverse order
     
 }
 
- 
+let username = "javascript";
+username[0] = 'J';
+console.log(username);
+let newUsername = username.toUpperCase();
+console.log(username);
+console.log(newUsername);
+
