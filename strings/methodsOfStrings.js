@@ -26,7 +26,6 @@ console.log(username.slice(0,5));
 console.log(username.slice(-5));
 console.log(username);
 
-
 // includes : check if string contains any value  , return boolean , case sensitive
 let sentence = "My name is simon rana";
 console.log(sentence.includes("simon"));
@@ -37,3 +36,4 @@ console.log(words.includes("Script",4));
 let words2 = "programmming"
 console.log(words2.includes("gram",3));
 
+// startsWith( )
