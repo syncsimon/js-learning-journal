@@ -38,3 +38,5 @@ console.log(words2.includes("gram",3));
 
 // startsWith( )
 console.log(words2.startsWith("pr"));
+
+console.log(words.startsWith("Java"));
