@@ -42,3 +42,5 @@ console.log(words2.startsWith("pr"));
 console.log(words.startsWith("Java"));
 
 console.log(str.startsWith("Script", 4));
+
+console.log(str.endsWith("Java", 4));
