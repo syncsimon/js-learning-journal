@@ -44,3 +44,29 @@ console.log(words.startsWith("Java"));
 console.log(str.startsWith("Script", 4));
 
 console.log(str.endsWith("Java", 4));
+
+//problem;
+let email = "simon@gmail.com";
+let website = "https://syncsimon.com";
+let filename = "portfolio.html";
+// Check whether the email starts with "simon".
+
+console.log(email.startsWith("simon"));
+
+
+// Check whether the email ends with "@gmail.com".
+
+
+console.log(email.endsWith("@gmail.com"));
+
+// Check whether the website starts with "https://".
+
+console.log(website.startsWith("https://"));
+
+
+// Check whether the filename ends with ".html".
+console.log(filename.endsWith(".html"));
+
+
+// Check whether the filename ends with ".js".
+console.log(filename.endsWith(".js"));
