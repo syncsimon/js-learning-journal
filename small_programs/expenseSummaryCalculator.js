@@ -14,10 +14,7 @@ const expenses = [
     { amount: 15000, category: "Investments" },
     { amount: 2000, category: "Trip" }
 ];
-
-
 //total spendings
-
 function calculateSpending(expenses){
     let totalExpenses = 0;
     for(let i = 0; i<expenses.length ; i++){
