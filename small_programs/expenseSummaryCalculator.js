@@ -50,7 +50,6 @@ for(let j = 0 ; j< uniqueCategory.length ; j++){
 //             console.log("nothing matches")
 //         }
 //     }
-// }
 
 
 // // console.log(uniqueCategory);
