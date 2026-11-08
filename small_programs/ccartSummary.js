@@ -4,3 +4,6 @@ const cart = [
     { name: "Keyboard", price: 1500, quantity: 1 },
     { name: "Monitor", price: 12000, quantity: 2 }
 ];
+
+let total = 0;
+firstWay(let i = 1)
