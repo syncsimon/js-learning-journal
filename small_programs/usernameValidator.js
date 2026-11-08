@@ -6,11 +6,6 @@ const users = [
     "developer99"
 ];
 
-// Requirements:
-// - Create a new array containing usernames with at least 5 characters.
-// - Display the valid usernames.
-// - Count how many usernames are invalid.
-
 const validUsername = [];
 for(let i = 0; i< users.length;i++){
     if(users[i].length >= 5){
