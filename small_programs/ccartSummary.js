@@ -6,4 +6,4 @@ const cart = [
 ];
 
 let total = 0;
-firstWay(let i = 1)
+firstway
