@@ -17,3 +17,9 @@ Write JavaScript code to:
 2. Print the valid users.
 3. Print the total number of invalid users.
 Expected output:
+
+
+
+
+Valid users: 3
+Invalid users: 2
