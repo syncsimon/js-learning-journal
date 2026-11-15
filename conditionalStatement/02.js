@@ -15,9 +15,4 @@ else{
     console.log("even");
     
 
-    if(get numbes, = 12)
-
-    hello{
-        wporkd
-    }
 }
