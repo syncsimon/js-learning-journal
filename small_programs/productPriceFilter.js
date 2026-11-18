@@ -12,4 +12,9 @@ for(let i = 0; i<products.length; i++){
     }
 }
 console.log(newArr);
-console.log(newArr.length);
+// console.log(newArr.length);
+let count = 0;
+for(let i = 0; i<newArr.length ; i++){
+    count += 1
+}
+console.log(count);
