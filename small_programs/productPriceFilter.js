@@ -5,3 +5,11 @@ const products = [
     { name: "Monitor", price: 12000 },
     { name: "USB Cable", price: 300 }
 ];
+const newArr = []
+for(let i = 0; i<products.length; i++){
+    if(products[i].price >= 1000){
+        newArr.push(products[i])
+    }
+}
+console.log(newArr);
+console.log(newArr.length);
