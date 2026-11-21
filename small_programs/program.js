@@ -28,4 +28,4 @@ const users = [
 
 
 // creatomg arrays:
-git 
+const newArray = []
