@@ -18,15 +18,11 @@ const users = [
 // 3. Print the total number of invalid users.
 // Expected output:
 
-
-
-
 // Valid users: 3
 // Invalid users: 2
-
-
-
 
 // creatomg arrays:
 const newArray = []
 newArray = password.push
+
+users = ["simonrana"];
