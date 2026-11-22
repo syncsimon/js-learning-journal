@@ -27,3 +27,5 @@ newArray = password.push
 
 users = ["simonrana"];
 newuSERS = ["simon","rana","433"];
+
+const newArrays = ["simon" , "hitesh" , "rahul" , "dev"];
