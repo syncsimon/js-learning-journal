@@ -21,11 +21,3 @@ const users = [
 // Valid users: 3
 // Invalid users: 2
 
-// creatomg arrays:
-const newArray = []
-newArray = password.push
-
-users = ["simonrana"];
-newuSERS = ["simon","rana","433"];
-
-const newArrays = ["simon" , "hitesh" , "rahul" , "dev"];
