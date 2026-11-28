@@ -21,7 +21,4 @@ const users = [
 // Valid users: 3
 // Invalid users: 2
 
-const username = {
-    name : "simon",
-    age : "19"
-}
+const validNames = ["simon","rana"];
